@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# TodoList--react-with-redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TodoList CURD operation, React with Redux TODO-List App By Using React with Redux
 
-## Available Scripts
+Creating a Component in React Communicating between parent and child component Using Bootstrap along with React Using Basic Routing in React Using Redux to manage a state
 
-In the project directory, you can run:
+# Prerequisites
 
-### `npm start`
+Install Node JS Refer to https://nodejs.org/en/ to install nodejs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install create-react-app Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+npm install -g create-react-app
 
-### `npm test`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install In order to run the application Type the following command
 
-### `npm run build`
+npm start The Application Runs on localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Application design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+NavBar: Showing the head of the application adding rount for Home page on Brand- logo
 
-### `npm run eject`
+AddTask: all logic to add task goes here, For alert message use react toastify Npm package
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Home Component : To Display all added data by using bootstrap in tabular form
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+UpdateTask Component : Update the selected data
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Redux
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Reducer/TaskReducer and Action : Intial state and action logic goes here
 
-## Learn More
+To ADD, UPDATE and DELETE the state.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Resources create-react-app : The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Bootstrap : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
